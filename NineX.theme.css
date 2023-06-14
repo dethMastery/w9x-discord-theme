@@ -11,8 +11,13 @@
 */
 
 @import url("https://saltssaumure.github.io/w9x-discord-theme/w9x.min.css");
+@import url('https://cdn.katsuragi.cyou/fonts/TH/LINEseed-Regular');
 
 /* See https://github.com/Saltssaumure/w9x-discord-theme#customisation for customisation settings. */
+* {
+    font-family: 'LINEseed-Regular', sans-serif !important;
+}
+
 :root {
     --w9x-background-image: none;
     --w9x-background-color: #008080;
